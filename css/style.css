@@ -1,0 +1,89 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Sen', sans-serif;
+}
+#header{
+height: 100vh;
+position: relative;
+}
+.nav{
+width: 100%;
+height: 150px;
+background: #fff;
+display: flex;
+align-items: center;
+}
+.nav-logo{
+display: flex;
+justify-items: center;
+
+}
+.nav-logo p{
+text-transform: uppercase;
+font-size: 30px;
+line-height: 45px;
+margin-left: 25px;
+}
+.burger-menu{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+width: 40px;
+height: 20px;
+}
+.burger-line{
+width: 100%;
+height: 2px;
+background-color: black;
+}
+.header-main{
+width: 100%;
+height: calc(100vh - 150px);
+background-color: #333333;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header-headline{
+text-transform: uppercase;
+font-size: 70px;
+color: #fff;
+margin: auto;
+}
+.text-m{
+text-transform: uppercase;
+color: #fff;
+text-align: center;
+font-size: 40px;
+}
+.header-main img{
+margin: auto;
+}
+.text-xs{
+font-size: 15px;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+}
+.header-scroll{
+position: absolute;
+bottom: 20px;
+left: 0;
+right: 0;
+margin: auto;
+}
+.header-scroll img{
+display: block;
+margin: auto;
+margin-bottom: 20px;
+}
+/* Utility classes */
+.container{
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
