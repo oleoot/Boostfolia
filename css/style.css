@@ -430,6 +430,28 @@ outline: none;
 font-size: 18px;
 padding-top: 10px;
 }
+/* Footer section ============================================*/
+#footer{
+background-color: #171f23;
+padding: 60px 0;
+}
+.footer-logo{
+display: block;
+margin: 0 auto 5px;
+}
+#footer h2{
+text-transform: uppercase;
+font-size: 30px;
+color: #fff;
+text-align: center;
+}
+#footer p{
+text-transform: uppercase;
+font-size: 18px;
+color: #fff;
+text-align: center;
+margin: 15px auto 20px;
+}
 /* Utility classes */
 section:not(:first-child){
 padding: 150px 0;
