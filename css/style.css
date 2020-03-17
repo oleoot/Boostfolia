@@ -277,7 +277,7 @@ padding: 60px 0;
 display: flex;
 justify-content: space-between;
 }
-#features h2{
+.dark-headline{
 text-align: center;
 text-transform: uppercase;
 font-size: 48px;
@@ -348,6 +348,53 @@ margin: 0 10px;
 font-size: 14px;
 color: #939393;
 line-height: 15px;
+}
+/* Plan section =============================================== */
+#plan{
+background-color: #171f23;
+}
+.plan-wrap{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 5px;
+}
+#plan-item-1{
+border: 1px solid #f6744b;
+}
+.plan-item-top{
+background: #0e1316;
+padding: 40px 0;
+}
+.plan-item-bottom{
+background: #1f282c;
+padding: 45px 0;
+}
+.plan-item-bottom ul{
+list-style-type: none;
+}
+.plan-item-bottom li{
+font-size: 18px;
+color: #fff;
+text-align: center;
+margin: 10px auto;
+}
+.plan-item-bottom span{
+font-weight: bolder;
+}
+.plan-item-p{
+color: #fff;
+text-transform: uppercase;
+font-size: 18px;
+margin: 0px auto 10px;
+text-align: center;
+}
+.plan-item-p1{
+font-size: 48px;
+font-weight: lighter;
+margin: 0 auto 00px;
+}
+.plan-btn{
+margin: 75px auto 0;
 }
 /* Utility classes */
 section:not(:first-child){
