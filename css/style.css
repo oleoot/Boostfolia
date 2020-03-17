@@ -396,6 +396,40 @@ margin: 0 auto 00px;
 .plan-btn{
 margin: 75px auto 0;
 }
+/* Contact section ============================================*/
+.contact-wrap{
+width: 60%;
+margin: 0 auto;
+}
+.contact-wrap-top{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 30px;
+margin-bottom: 45px;
+}
+.contact-wrap-top input{
+border: none;
+border-bottom: 1px solid #adadad;
+height: 40px;
+width: 100%;
+outline: none;
+font-size: 18px;
+}
+.contact-wrap p{
+text-transform: uppercase;
+color: #696969;
+font-size: 18px;
+}
+.contact-wrap textarea{
+width: 100%;
+height: 90px;
+resize: none;
+border: none;
+border-bottom: 1px solid #adadad;
+outline: none;
+font-size: 18px;
+padding-top: 10px;
+}
 /* Utility classes */
 section:not(:first-child){
 padding: 150px 0;
