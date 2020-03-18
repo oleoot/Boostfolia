@@ -36,6 +36,7 @@ background-color: black;
 }
 .header-main{
 width: 100%;
+padding: 0 30px;
 height: calc(100vh - 150px);
 background: url(../img/bg/paris.jpg);
 background-size: cover;
@@ -164,6 +165,7 @@ margin: 70px auto 30px;
 }
 .staff-left{
 background-color: #ebebeb;
+padding-bottom: 70px;
 }
 .staff-left h3{
 text-align: center;
@@ -227,6 +229,7 @@ padding: 60px 0;
 }
 .features-wrap{
 margin-top: 40px;
+grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .features-item img{
 display: block;
@@ -431,4 +434,127 @@ font-size: 14px;
 }
 .dark-section-headline{
 color: #fff;
+}
+/* Media */
+@media screen and (max-width: 1650px){
+    .skill-percent{
+    width: 60%;
+    }
+    }
+@media screen and (max-width: 1280px){
+.section-description{
+width: 80%;
+}
+.skill-percent{
+width: 50%;
+}
+/* Utility classes */
+.text-md {
+font-size: 21px;
+}
+.text-xl{
+font-size: 50px;
+}
+}
+@media screen and (max-width: 1024px){
+.section-description {
+width: 100%;
+}
+.about-items{
+grid-template-columns: 1fr;
+}
+#scenes{
+grid-template-columns: 1fr;
+}
+#scenes-left{
+grid-row-start: none;
+}
+#scenes img{
+max-height: none;
+}
+.works-items{
+grid-gap: 0px;
+}
+.works-nav a{
+font-size: 16px;
+margin: 0 10px;
+}
+.staff-person {
+grid-template-columns: 1fr;
+}
+.features-wrap{
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+grid-gap: 70px;
+}
+.posts-items{
+grid-template-columns: 1fr;
+grid-gap: 70px;
+}
+.plan-wrap{
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+}
+.contact-input {
+grid-template-columns: 1fr;
+}
+}
+@media screen and (max-width: 640px){
+    section:not(:first-child),#scenes-left, #works, .works-sponsors{
+    padding: 50px 0;
+    }
+    .container{
+     width: 90%;
+    }
+    .text-xl{
+     font-size: 40px;
+    }
+    .text-lg{
+        line-height: 45px;
+    font-size: 25px;
+    }
+    .works-nav a{
+    font-size: 20px;
+    margin: 10px 0;
+    }
+    .works-nav {
+     flex-direction: column;
+     align-items: center;
+        margin: 50px 0 40px;
+    }
+    .works-items{
+    grid-template-columns: 1fr;
+    }
+    .works-sponsors{
+        align-items: center;
+        flex-direction: column;
+    }
+    .works-sponsors a{
+     margin: 15px 0;
+    }
+    .skill{
+    display: block;
+    }
+    .skill-percent{
+    width: 100%;
+    margin: 10px 0;
+    }
+    .skill-percent-number{
+    display: none;
+    }
+    .features-wrap{
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    }
+    .contact-wrap{
+    width: 90%;
+    }
+}
+@media screen and (max-width: 425px){
+.plan-wrap{
+grid-template-columns: 1fr;
+}
+.staff-right{
+ padding: 70px 20px;
+}
 }
