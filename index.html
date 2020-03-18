@@ -11,23 +11,23 @@
 
 <body>
     <section id="header">
-        <nav class="nav">
+        <nav class="nav flex-container">
             <div class="container flex-container">
                 <div class="nav-logo">
                     <img src="img/icons/logo.png" alt="logo">
-                    <p>Boostfolia</p>
+                    <p class="text-lg">Boostfolia</p>
                 </div>
-                <div class="burger-menu">
+                <div class="burger-menu flex-container">
                     <div class="burger-line"></div>
                     <div class="burger-line"></div>
                     <div class="burger-line"></div>
                 </div>
             </div>
         </nav>
-        <div class="header-main">
+        <div class="header-main flex-container-center">
             <div>
-                <h1 class="header-headline">We think creative be creative</h1>
-                <p class="text-m">Like to do creative works</p>
+                <h1 class="text-xl">We think creative be creative</h1>
+                <p class="text-lg">Like to do creative works</p>
             </div>
         </div>
         <div class="header-scroll">
@@ -37,42 +37,39 @@
     </section>
     <section id="about">
         <div class="container">
-            <h2 class="section-headline">About us</h2>
+            <h2 class="text-xl">About us</h2>
             <div class="section-underline"></div>
-            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur
+            <p class="text-s text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Hic
+                consequuntur
                 accusantium eligendi fugit perspiciatis nostrum deleniti dolor assumenda sint eveniet.</p>
-            <div class="about-proposition">
-                <div class="about-items">
-                    <div>
-                        <img src="img/icons/brush.png" alt="brush">
-                        <p class="text-s">Creative design</p>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat est
-                            unde aspernatur officia recusandae!</p>
-                    </div>
+            <div class="about-items grid-container">
+                <div>
+                    <img src="img/icons/brush.png" alt="brush">
+                    <p class="text-s">Creative Design</p>
+                    <p class="text-s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat est
+                        unde aspernatur officia recusandae!</p>
                 </div>
-                <div class="about-items">
-                    <div>
-                        <img src="img/icons/suitcase.png" alt="suitcase">
-                        <p class="text-s">unique Portfolio</p>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat est
-                            unde aspernatur officia recusandae!</p>
-                    </div>
+                <div>
+                    <img src="img/icons/suitcase.png" alt="suitcase">
+                    <p class="text-s">Unique Portfolio</p>
+                    <p class="text-s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat est
+                        unde aspernatur officia recusandae!</p>
                 </div>
-                <div class="about-items">
-                    <div>
-                        <img src="img/icons/infinity.png" alt="infinity">
-                        <p class="text-s">Infinite updates</p>
-                        <p class="text-sm">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat est
-                            unde aspernatur officia recusandae!</p>
-                    </div>
+                <div>
+                    <img src="img/icons/infinity.png" alt="infinity">
+                    <p class="text-s">Infinite Updates</p>
+                    <p class="text-s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste repellat est
+                        unde aspernatur officia recusandae!</p>
                 </div>
             </div>
         </div>
     </section>
-    <section id="scenes">
+    <section id="scenes" class="grid-container">
         <div id="scenes-left">
-            <h2>Watch behind the scene</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, nihil. Suscipit odit odio officiis
+            <h2 class="text-lg">Watch behind the scene</h2>
+            <p class="text-s">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur, nihil. Suscipit
+                odit odio officiis
                 voluptas consequuntur nesciunt ullam sed totam et accusantium sit illum hic asperiores dignissimos quae,
                 pariatur quo amet reiciendis neque praesentium dolore. Accusantium excepturi beatae quis obcaecati.</p>
             <button class="btn">Play now</button>
@@ -82,18 +79,19 @@
         </div>
     </section>
     <section id="works">
-        <h2 class="section-headline">Our works</h2>
+        <h2 class="text-xl">Our works</h2>
         <div class="section-underline"></div>
-        <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur
+        <p class="text-s text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            consequuntur
             accusantium eligendi fugit perspiciatis nostrum deleniti dolor assumenda sint eveniet.</p>
-        <nav class="works-nav">
+        <nav class="works-nav flex-container-center">
             <a href="#">All projects</a>
             <a href="#">Photography</a>
             <a href="#">Web Design</a>
             <a href="#">Branding</a>
             <a href="#">Mobile app</a>
         </nav>
-        <div class="works-items">
+        <div class="works-items grid-container">
             <div><img src="img/bg/barcelona.jpg" alt=""></div>
             <div><img src="img/bg/berlin.jpg" alt=""></div>
             <div><img src="img/bg/shanghai.jpg" alt=""></div>
@@ -104,60 +102,61 @@
             <div><img src="img/bg/venice.jpg" alt=""></div>
             <div><img src="img/bg/tokyo.jpg" alt=""></div>
         </div>
-        <div class="works-sponsors">
+        <div class="works-sponsors flex-container-center">
             <a href="#"><img src="img/sponsors/themeforest.png" alt="themeforest"></a>
             <a href="#"><img src="img/sponsors/graphicriver.png" alt="graphicriver"></a>
             <a href="#"><img src="img/sponsors/videohive.png" alt="videohive"></a>
         </div>
     </section>
-    <section class="personal">
+    <section id="staff">
         <div class="container">
-            <h2 class="section-headline">Who we are</h2>
+            <h2 class="text-xl">Who we are</h2>
             <div class="section-underline"></div>
-            <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur
+            <p class="text-s text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Hic consequuntur
                 accusantium eligendi fugit perspiciatis nostrum deleniti dolor assumenda sint eveniet.</p>
-            <div class="personal-item">
-                <div class="personal-left">
-                    <img src="img/personal/jane.jpg" alt="personal1" class="personal-img">
-                    <h3>Jane Smith</h3>
-                    <p>Designer</p>
-                    <div class="item-social">
-                        <a href=""><img src="img/icons/instagram.png" alt="instagram"></a>
-                        <a href=""><img src="img/icons/facebook.png" alt="facebook"></a>
-                        <a href=""><img src="img/icons/twitter.png" alt="twitter"></a>
+            <div class="staff-person grid-container">
+                <div class="staff-left">
+                    <img src="img/personal/jane.jpg" alt="staff1" class="staff-img">
+                    <h3 class="text-md">Jane Smith</h3>
+                    <p class="text-s">Designer</p>
+                    <div class="item-social flex-container-center">
+                        <a href="#"><img src="img/icons/instagram.png" alt="instagram"></a>
+                        <a href="#"><img src="img/icons/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="img/icons/twitter.png" alt="twitter"></a>
                     </div>
                 </div>
-                <div class="personal-right">
+                <div class="staff-right">
                     <h3>My skills</h3>
-                    <p class="personal-right-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus fugit
+                    <p class="staff-right-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus fugit
                         maiores repudiandae
                         aperiam pariatur animi eos quos consectetur nemo illum!</p>
-                    <div class="personal-skills">
-                        <div class="skill">
+                    <div class="staff-skills">
+                        <div class="skill flex-container">
                             <p>Photoshop</p>
-                            <div class="skills-percent">
-                                <div class="real-percent" id="percent1"></div>
+                            <div class="skill-percent">
+                                <div class="skill-percent-filling" id="percent1"></div>
                             </div>
                             <p>88%</p>
                         </div>
-                        <div class="skill">
+                        <div class="skill flex-container">
                             <p>Illustrator</p>
-                            <div class="skills-percent">
-                                <div class="real-percent" id="percent2"></div>
+                            <div class="skill-percent">
+                                <div class="skill-percent-filling" id="percent2"></div>
                             </div>
                             <p>92%</p>
                         </div>
-                        <div class="skill">
+                        <div class="skill flex-container">
                             <p>Sketch</p>
-                            <div class="skills-percent">
-                                <div class="real-percent" id="percent3"></div>
+                            <div class="skill-percent">
+                                <div class="skill-percent-filling" id="percent3"></div>
                             </div>
                             <p>90%</p>
                         </div>
-                        <div class="skill">
+                        <div class="skill flex-container">
                             <p>After Effects</p>
-                            <div class="skills-percent">
-                                <div class="real-percent" id="percent4"></div>
+                            <div class="skill-percent">
+                                <div class="skill-percent-filling" id="percent4"></div>
                             </div>
                             <p>98%</p>
                         </div>
@@ -169,93 +168,97 @@
     </section>
     <section id="features">
         <div class="container">
-            <h2 class="dark-headline">Some features</h2>
-            <div class="section-underline features-underline"></div>
-            <div class="features-wrap">
+            <h2 class="dark-section-headline text-xl">Some features</h2>
+            <div class="dark-section-underline"></div>
+            <div class="features-wrap flex-container">
                 <div class="features-item">
-                    <img src="img/icons/monitor.png" alt="">
-                    <p class="features-item-p">Shortcodes</p>
-                    <p class="features-item-p1">46</p>
+                    <img src="img/icons/monitor.png" alt="monitor">
+                    <p class="text-md features-item-description">Shortcodes</p>
+                    <p class="text-xl features-item-quantity">46</p>
                 </div>
                 <div class="features-item">
-                    <img src="img/icons/settings.png" alt="">
-                    <p class="features-item-p">Integrated Plugins</p>
-                    <p class="features-item-p1">128</p>
+                    <img src="img/icons/settings.png" alt="settings">
+                    <p class="text-md features-item-description">Integrated Plugins</p>
+                    <p class="text-xl features-item-quantity">128</p>
                 </div>
                 <div class="features-item">
-                    <img src="img/icons/bag.png" alt="">
-                    <p class="features-item-p">Creative Products</p>
-                    <p class="features-item-p1">450</p>
+                    <img src="img/icons/bag.png" alt="suitcase">
+                    <p class="text-md features-item-description">Creative Products</p>
+                    <p class="text-xl features-item-quantity">450</p>
                 </div>
                 <div class="features-item">
-                    <img src="img/icons/medal.png" alt="">
-                    <p class="features-item-p">Clients Worldwide</p>
-                    <p class="features-item-p1">100+</p>
+                    <img src="img/icons/medal.png" alt="medal">
+                    <p class="text-md features-item-description">Clients Worldwide</p>
+                    <p class="text-xl features-item-quantity">100+</p>
                 </div>
             </div>
         </div>
     </section>
     <section id="posts">
-        <h2 class="section-headline">Blog Posts</h2>
+        <h2 class="text-xl">Blog Posts</h2>
         <div class="section-underline"></div>
-        <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur
+        <p class="text-s text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            consequuntur
             accusantium eligendi fugit perspiciatis nostrum deleniti dolor assumenda sint eveniet.</p>
         <div class="container">
-            <div class="posts-items">
+            <div class="posts-items grid-container">
                 <div class="post">
                     <img src="img/bg/post1.jpg" alt="" class="post-img">
-                    <p class="post-first-p">Creative & Clean</p>
-                    <p class="post-second-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde officia sunt
+                    <p class="text-md post-headline">Creative & Clean</p>
+                    <p class="text-s post-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+                        officia sunt
                         illum sapiente
                         ducimus soluta. Lorem ipsum dolor sit amet.</p>
-                    <div class="post-bottom">
-                        <div class="post-bottom-time">
+                    <div class="post-bottom flex-container">
+                        <div class="flex-container-center">
                             <img src="img/icons/clock.png" alt="" class="post-bottom-img">
-                            <p>25 Jan 2020</p>
+                            <p class="text-xs post-bottom-p">25 Jan 2020</p>
                         </div>
-                        <div class="post-bottom-time">
+                        <div class="flex-container-center">
                             <img src="img/icons/like.png" alt="" class="post-bottom-img">
-                            <p>40</p>
+                            <p class="text-xs post-bottom-p">40</p>
                             <img src="img/icons/comment.png" alt="" class="post-bottom-img">
-                            <p>5</p>
+                            <p class="text-xs post-bottom-p">5</p>
                         </div>
                     </div>
                 </div>
                 <div class="post">
                     <img src="img/bg/post2.jpg" alt="" class="post-img">
-                    <p class="post-first-p">Make A Sleek Break</p>
-                    <p class="post-second-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde officia sunt
+                    <p class="text-md post-headline">Make A Sleek Break</p>
+                    <p class="text-s post-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+                        officia sunt
                         illum sapiente
                         ducimus soluta. Lorem ipsum dolor sit amet.</p>
-                    <div class="post-bottom">
-                        <div class="post-bottom-time">
+                    <div class="post-bottom flex-container">
+                        <div class="flex-container-center">
                             <img src="img/icons/clock.png" alt="" class="post-bottom-img">
-                            <p>13 Feb 2020</p>
+                            <p class="text-xs post-bottom-p">13 Feb 2020</p>
                         </div>
-                        <div class="post-bottom-time">
+                        <div class="flex-container-center">
                             <img src="img/icons/like.png" alt="" class="post-bottom-img">
-                            <p>32</p>
+                            <p class="text-xs post-bottom-p">32</p>
                             <img src="img/icons/comment.png" alt="" class="post-bottom-img">
-                            <p>19</p>
+                            <p class="text-xs post-bottom-p">19</p>
                         </div>
                     </div>
                 </div>
                 <div class="post">
                     <img src="img/bg/post3.jpg" alt="" class="post-img">
-                    <p class="post-first-p">Creative Manipulations</p>
-                    <p class="post-second-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde officia sunt
+                    <p class="text-md post-headline">Creative Manipulations</p>
+                    <p class="text-s post-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+                        officia sunt
                         illum sapiente
                         ducimus soluta. Lorem ipsum dolor sit amet.</p>
-                    <div class="post-bottom">
-                        <div class="post-bottom-time">
+                    <div class="post-bottom flex-container">
+                        <div class="flex-container-center">
                             <img src="img/icons/clock.png" alt="" class="post-bottom-img">
-                            <p>01 Apr 2020</p>
+                            <p class="text-xs post-bottom-p">01 Apr 2020</p>
                         </div>
-                        <div class="post-bottom-time">
+                        <div class="flex-container-center">
                             <img src="img/icons/like.png" alt="" class="post-bottom-img">
-                            <p>25</p>
+                            <p class="text-xs post-bottom-p">25</p>
                             <img src="img/icons/comment.png" alt="" class="post-bottom-img">
-                            <p>11</p>
+                            <p class="text-xs post-bottom-p">11</p>
                         </div>
                     </div>
                 </div>
@@ -264,13 +267,13 @@
     </section>
     <section id="plan">
         <div class="container">
-            <h2 class="dark-headline">Choose plan</h2>
-            <div class="section-underline features-underline"></div>
-            <div class="plan-wrap">
+            <h2 class="dark-section-headline text-xl">Choose plan</h2>
+            <div class="dark-section-underline"></div>
+            <div class="plan-wrap grid-container">
                 <div class="plan-item">
                     <div class="plan-item-top">
-                        <p class="plan-item-p">Basic</p>
-                        <p class="plan-item-p plan-item-p1">Free</p>
+                        <p class="text-s plan-headline">Basic</p>
+                        <p class="text-xl plan-headline plan-price">Free</p>
                     </div>
                     <div class="plan-item-bottom">
                         <ul>
@@ -284,8 +287,8 @@
                 </div>
                 <div class="plan-item" id="plan-item-1">
                     <div class="plan-item-top">
-                        <p class="plan-item-p">Standart</p>
-                        <p class="plan-item-p plan-item-p1">$24.00</p>
+                        <p class="text-s plan-headline">Standart</p>
+                        <p class="text-xl plan-headline plan-price">$24.00</p>
                     </div>
                     <div class="plan-item-bottom">
                         <ul>
@@ -299,8 +302,8 @@
                 </div>
                 <div class="plan-item">
                     <div class="plan-item-top">
-                        <p class="plan-item-p">Premium</p>
-                        <p class="plan-item-p plan-item-p1">$40.00</p>
+                        <p class="text-s plan-headline">Premium</p>
+                        <p class="text-xl plan-headline plan-price">$40.00</p>
                     </div>
                     <div class="plan-item-bottom">
                         <ul>
@@ -314,8 +317,8 @@
                 </div>
                 <div class="plan-item">
                     <div class="plan-item-top">
-                        <p class="plan-item-p">Professional</p>
-                        <p class="plan-item-p plan-item-p1">$75.00</p>
+                        <p class="text-s plan-headline">Professional</p>
+                        <p class="text-xl plan-headline plan-price">$75.00</p>
                     </div>
                     <div class="plan-item-bottom">
                         <ul>
@@ -331,31 +334,32 @@
         </div>
     </section>
     <section id="contact">
-        <h2 class="section-headline">Get in touch</h2>
+        <h2 class="text-xl">Get in touch</h2>
         <div class="section-underline"></div>
-        <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consequuntur
+        <p class="text-s text-center section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+            consequuntur
             accusantium eligendi fugit perspiciatis nostrum deleniti dolor assumenda sint eveniet.</p>
         <div class="contact-wrap">
-            <div class="contact-wrap-top">
+            <div class="contact-input grid-container">
                 <div>
-                    <p>Name</p>
-                    <input type="text">
+                    <p class="text-s">Name</p>
+                    <input type="text" class="text-s">
                 </div>
                 <div>
-                    <p>Mail</p>
-                    <input type="text">
+                    <p class="text-s">Mail</p>
+                    <input type="text" class="text-s">
                 </div>
             </div>
-            <p>Message</p>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <p class="text-s">Message</p>
+            <textarea name="" id="" cols="30" rows="10" class="text-s"></textarea>
             <button class="btn">Send Message</button>
         </div>
     </section>
     <footer id="footer">
         <img src="img/icons/logo.png" alt="logo" class="footer-logo">
-        <h2>Boostfolia</h2>
-        <p>Made with love by Oleg Kuts</p>
-        <div class="item-social footer-social">
+        <h2 class="text-lg">Boostfolia</h2>
+        <p class="text-s">Made with love by Oleg Kuts</p>
+        <div class="item-social flex-container-center">
             <a href=""><img src="img/icons/instagram-w.png" alt="instagram"></a>
             <a href=""><img src="img/icons/facebook-w.png" alt="facebook"></a>
             <a href=""><img src="img/icons/twitter-w.png" alt="twitter"></a>
